@@ -1,0 +1,19 @@
+.header {
+    background-color: #392B58;
+    margin: 0;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        color: #E7E5DF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+    }
+    h2 {
+        color: #E7E5DF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.75rem;
+    }
+}
