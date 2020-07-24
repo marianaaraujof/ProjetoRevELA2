@@ -6,14 +6,47 @@
     flex-direction: column;
     align-items: center;
 
-    h1 {
+    &:first-child {
         color: #E7E5DF;
         font-family: 'Poppins', sans-serif;
         font-size: 2rem;
     }
-    h2 {
+    &:nth-child(2) {
         color: #E7E5DF;
         font-family: 'Poppins', sans-serif;
         font-size: 1.75rem;
     }
 }
+.accessibility-bar-wrapper {
+    position: relative;
+    background-color: #574f9a;
+    color: white;
+    min-height: 20px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    width: 100%;
+    font-size: .7em;
+
+    a {
+      color: white;
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+
+    .numero-acessibilidade {
+      background-color: white;
+      color: #574f9a;
+      padding: 0 2px 0 3px;
+      margin-right: 4px;
+  
+    }
+  }
+  @media screen and (max-width: 414px) {
+      .header:first-child {
+        font-size: 1rem;
+      }
+      .header:nth-child(2) {
+        font-size: .8rem;
+      }
+  }
