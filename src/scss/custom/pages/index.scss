@@ -124,7 +124,54 @@ $rhythm: #7b7191ff;
 #mascara-text .arrow-up{
     margin-left: 48rem;
 }*/
-  
+
+@media screen and (max-width: 1024px ) {
+    .corpo {
+        min-height: 90vh;
+    }
+    .imagem a:first-child {
+        position: absolute;
+        top: 57%;
+        left: 0%;
+    }
+    .imagem a:nth-child(3){
+        position: absolute;
+        top: 59%;
+        left: 20%;
+    }
+    .imagem a:nth-child(5){
+        position: absolute;
+        top: 63%;
+        left: 40%;
+    }
+    .imagem a:nth-child(7){
+        position: absolute;
+        top: 61%;
+        left: 60%;
+    }
+    .imagem a:nth-child(9){
+        position: absolute;
+        top: 52%;
+        left: 80%;
+    }
+    .dropdown{
+        width: 90%;
+        top: 79%;
+        left: 5%;
+        
+        .text {
+            padding: 1rem 0.5rem;
+
+            h1 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
 
 @media screen and (max-width: 769px) {
     
